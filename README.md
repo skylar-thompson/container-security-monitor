@@ -91,7 +91,7 @@ sqlite3 security_logs.db "SELECT * FROM SecurityEvents WHERE memberName='skylarD
 
 5. **Run standard operations**:
 
-To test if an authorized container remains up, run the following where <UBUNTU_IP> is your host's' IP
+To test if an authorized container remains up, run the following where <UBUNTU_IP> is your host's' IP:
 ```bash
 docker -H <UBUNTU_IP>:2375 run -d --name legitimate-web-server nginx
 ```
