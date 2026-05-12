@@ -4,7 +4,7 @@
 Modern cloud infrastructures are highly susceptible to container escape vulnerabilities, where an adversary gains unauthorized access to the host machine. This project provides a Python-based security solution that monitors Docker events in real-time to detect and immediately neutralize containers attempting to mount sensitive host directories or the Docker socket.
 
 ## Core Features
-* Real-time event monitoring uses the Docker SDK to intercept container start events.
+* Real-time event monitoring uses the Docker SDK to intercept container start events
 * Detection scans mount configurations for forbidden paths (`/`, `/var/run/docker.sock`)
 * Automated mitigation executes an immediate stop command on non-compliant containers to prevent exploitation
 * Forensic auditing logs incident metadata (Source IP, Timestamp, Event Type) into a centralized SQLite3 database
