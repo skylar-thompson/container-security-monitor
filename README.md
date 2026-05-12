@@ -1,7 +1,7 @@
 # Container Escape Vulnerability and Defense Cycle
 
 ## Project Overview
-Modern cloud infrastructures are highly susceptible to ontainer escape vulnerabilities, where an adversary gains unauthorized access to the host machine. This project provides a Python-based security solution that monitors Docker events in real-time to detect and immediately neutralize containers attempting to mount sensitive host directories or the Docker socket.
+Modern cloud infrastructures are highly susceptible to container escape vulnerabilities, where an adversary gains unauthorized access to the host machine. This project provides a Python-based security solution that monitors Docker events in real-time to detect and immediately neutralize containers attempting to mount sensitive host directories or the Docker socket.
 
 ## Core Features
 * Real-time event monitoring uses the Docker SDK to intercept container start events.
