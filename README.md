@@ -15,7 +15,7 @@ Modern cloud infrastructures are highly susceptible to container escape vulnerab
 * `logger.py`: Standardized utility for recording security events
 
 ## Demo Video
-
+[![Watch the Demo](https://img.youtube.com/vi/3gDOM4y4Tew/maxresdefault.jpg)](https://youtu.be/3gDOM4y4Tew)
 
 ## Host Setup (Ubuntu Linux VM)
 
